@@ -1,4 +1,4 @@
-# @refundyoursol/mcp
+# refundyoursol
 
 MCP (Model Context Protocol) server for [RefundYourSOL](https://refundyoursol.com) — the most widely used Solana wallet cleanup tool with 500K+ wallets processed.
 
@@ -34,7 +34,7 @@ Add to your MCP config (`claude_desktop_config.json` or equivalent):
   "mcpServers": {
     "refundyoursol": {
       "command": "npx",
-      "args": ["-y", "@refundyoursol/mcp"],
+      "args": ["-y", "refundyoursol"],
       "env": {
         "SOLANA_PRIVATE_KEY": "your-base58-private-key",
         "SOLANA_RPC_URL": "https://your-rpc-endpoint.com"
@@ -50,7 +50,7 @@ Add to your MCP config (`claude_desktop_config.json` or equivalent):
 claude mcp add refundyoursol \
   -e SOLANA_PRIVATE_KEY=your-base58-key \
   -e SOLANA_RPC_URL=https://your-rpc.com \
-  -- npx -y @refundyoursol/mcp
+  -- npx -y refundyoursol
 ```
 
 ### Scan-Only Mode (no private key)
@@ -62,7 +62,7 @@ Omit `SOLANA_PRIVATE_KEY` to run in scan-only mode with 4 read-only tools:
   "mcpServers": {
     "refundyoursol": {
       "command": "npx",
-      "args": ["-y", "@refundyoursol/mcp"]
+      "args": ["-y", "refundyoursol"]
     }
   }
 }
