@@ -50,7 +50,7 @@ Add to your MCP config (`claude_desktop_config.json` or equivalent):
 claude mcp add refundyoursol \
   -e SOLANA_PRIVATE_KEY=your-base58-key \
   -e SOLANA_RPC_URL=https://your-rpc.com \
-  -- npx -y refundyoursol
+  -- npx -y @refundyoursol/mcp
 ```
 
 ### Scan-Only Mode (no private key)
