@@ -1,0 +1,46 @@
+{
+  "name": "@refundyoursol/mcp",
+  "version": "1.0.0",
+  "description": "RefundYourSOL MCP Server — Solana wallet cleanup, token trading, and metadata tools for AI agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "refundyoursol-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "solana",
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "wallet-cleanup",
+    "token-trading",
+    "sol-recovery",
+    "refundyoursol",
+    "claude",
+    "cursor"
+  ],
+  "author": "RefundYourSOL <support@refundyoursol.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refundyoursol/refundyoursol-mcp"
+  },
+  "homepage": "https://refundyoursol.com",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0"
+  }
+}
