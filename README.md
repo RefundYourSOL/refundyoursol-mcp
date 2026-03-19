@@ -4,6 +4,8 @@ MCP (Model Context Protocol) server for [RefundYourSOL](https://refundyoursol.co
 
 Provides AI agents with tools for Solana wallet cleanup, token trading on 12+ DEXes, and token metadata/pricing.
 
+[![RefundYourSOL MCP server](https://glama.ai/mcp/servers/RefundYourSOL/refundyoursol-mcp/badges/card.svg)](https://glama.ai/mcp/servers/RefundYourSOL/refundyoursol-mcp)
+
 ## Tools
 
 ### Always Available (no private key needed)
